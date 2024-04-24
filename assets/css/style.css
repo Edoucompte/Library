@@ -1,0 +1,64 @@
+::backdrop{
+    background-image: linear-gradient(
+        45deg,
+        magenta,
+        rebeccapurple,
+        dodgerblue,
+        green
+    );
+    opacity: .75;
+}
+
+body{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+
+form{
+    padding: 2dvi 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1dvi;
+}
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    padding: 1dvw 10dvh;
+}
+
+#newBook{
+    margin: 3dvw 0;
+}
+
+#books{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4dvh;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    width: 150px;
+    background: rgb(206, 188, 188);
+    position: relative;
+}
+
+.del{
+    position: absolute;
+    top: 5%;
+    left: 185px;
+}
